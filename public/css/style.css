@@ -1,0 +1,115 @@
+.header {
+    height: 90px;
+    width: 100%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    
+}
+
+.modal{
+    position: fixed;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid grey;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translateX( -50%) translateY(-50%);
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+#close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.body-image{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.body-image img{
+    width: 100%;
+    
+}
+
+.event {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+.m_sholder {
+    background-color: red;
+    top: 120px;
+    left: 210px;
+}
+
+.u_sholder {
+    background-color: red;
+    top: 120px;
+    left: 540px;
+}
+
+.chest{
+    background-color: red;
+    top: 150px;
+    left: 160px;
+}
+
+.arm{
+    background-color: red;
+    top: 180px;
+    left: 225px;
+}
+
+.u_arm{
+    background-color: red;
+    top: 180px;
+    left: 555px;
+}
+
+.back{
+    background-color: red;
+    top: 180px;
+    left: 500px;
+}
+
+.m_back{
+    background-color: red;
+    top: 240px;
+    left: 450px;
+}
+
+.m_arm{
+    background-color: red;
+    top: 260px;
+    left: 235px;
+}
+
+.m_leg {
+    background-color: red;
+    top: 400px;
+    left: 170px;
+}
+
+.u_leg {
+    background-color: red;
+    top: 400px;
+    left: 490px;
+    height: 80px;
+    width: 30px;
+}
+
