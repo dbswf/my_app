@@ -1,8 +1,31 @@
 .header {
-    height: 90px;
+    height: 110px;
     width: 100%;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
+
+p{
+  padding:0;
+  margin:0;
+}
+
+{
+  margin-top:50px;
+  text-align:center;
+}
+
+.sample {
+  font-size:5em;
+  text-align:center;
+  line-height:0.95em;
+  font-weight:bold;
+  text-shadow:
+    0 0.03em 0.03em #FFAB91,
+    0 0.03em 0.03em #000,
+    0 0.03em 0.03em #FBE9E7;
+}
+
+
 
 body {
     margin: 0;
@@ -21,7 +44,7 @@ body {
     border: 2px solid grey;
     top: 50%;
     left: 50%;
-    width: 600px;
+    width: 630px;
     transform: translateX( -50%) translateY(-50%);
     display: none;
 }
@@ -39,7 +62,7 @@ body {
 #part {
   background: linear-gradient(transparent 70%, #a7d6ff 70%);
   width: 130px;
-  font-size: 26px;
+  font-size: 18px;
 }
 
 
@@ -47,7 +70,7 @@ body {
   position: relative;
   display: inline-block;
   margin-bottom: 1em;
-  font-size: 25px;
+  font-size: 23px;
 }
 #title:before {
   content: '';
