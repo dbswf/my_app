@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('name')->default('');
             $table->text('body');
             $table->string('image_url')->nullable();
-            $table->string('movie_code')->default('');
+            $table->text('movie_code');
             //$table->foreign('part_id')->references('id')->on('parts');
             $table->timestamps();
         });

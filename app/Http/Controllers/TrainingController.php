@@ -16,7 +16,9 @@ class TrainingController extends Controller
      */
     public function index()
     {
-        return view('trainings/index');
+        $trainings = Training::all();
+        $parts = Part::all();
+        return view('trainings/index')->with(['trainings' => $trainings , 'parts' => $parts]);
     }
 
     /**

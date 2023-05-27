@@ -47,8 +47,8 @@ arm.addEventListener('click', function() {
 });
 
 u_arm.addEventListener('click', function() {
-    part.innerHTML = "上腕二頭筋";
-    title.innerHTML = "アームカール";
+    part.innerHTML = "上腕三頭筋";
+    title.innerHTML = "キックバック";
 });
 
 back.addEventListener('click', function() {
@@ -57,18 +57,18 @@ back.addEventListener('click', function() {
 });
 
 m_back.addEventListener('click', function() {
-    part.innerHTML = "背中";
+    part.innerHTML = "背中（下部）";
     title.innerHTML = "デットリフト";
 });
 
 m_arm.addEventListener('click', function() {
     part.innerHTML = "前腕";
-    title.innerHTML = "ハンマーカール";
+    title.innerHTML = "リストカール";
 });
 
 m_leg.addEventListener('click', function() {
     part.innerHTML = "大腿四頭筋";
-    title.innerHTML = "ダンベルランジ";
+    title.innerHTML = "ブルガリアンスクワット";
 });
 
 u_leg.addEventListener('click', function() {
