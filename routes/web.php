@@ -14,6 +14,6 @@ use App\Http\Controllers\TrainingController;
 |
 */
 
-Route::get('/trainings', [TrainingController::class, 'index'])->name('index');
+Route::get('/', [TrainingController::class, 'index'])->name('index');
 Route::get('/trainings/create', [TrainingController::class, 'create']);
 Route::post('/trainings/create', [TrainingController::class, 'store'])->name('trainings.store');
