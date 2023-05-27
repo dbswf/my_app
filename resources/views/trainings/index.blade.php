@@ -10,12 +10,14 @@
 <body>
     
     <header class="header">
+    　<p class="sample">筋トレのすゝめ</p>
       <div class="header-list">
+         
           
       </div>
     </header>
     <h1>
-    <a href="/trainings/create">管理者画面１</a></a>
+    <!--<a href="/trainings/create">管理者画面１</a></a>-->
         
     </h1>
     <div class="body-image">
